@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    
   </a>
 
   <h3 align="center">Bluetooth 13 pin Car Socket </h3>
@@ -28,10 +28,8 @@
   </p>
 
   Wikipedia: 
-  
   https://en.wikipedia.org/wiki/ISO_11446
-
-  
+ 
 </p>
 
 
@@ -157,8 +155,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -167,18 +163,12 @@ Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 
-
-
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 * []()
 * []()
 * []()
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

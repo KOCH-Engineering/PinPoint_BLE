@@ -58,7 +58,6 @@ You insert a plug in the cars connector and this power a wireless transmitter th
 
 You can then see a status on all the needed pins and see status on your phone without a cable out of the door.
 
-Link here: [Link to example](https://randomnerdtutorials.com/esp32-web-bluetooth/)
 
 :smile:
 

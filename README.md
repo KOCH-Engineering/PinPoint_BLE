@@ -6,7 +6,6 @@
 -->
 
 
-
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -76,7 +75,6 @@
 Link here
 [Link to example](https://randomnerdtutorials.com/esp32-web-bluetooth/)
 
-
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
@@ -94,8 +92,6 @@ This section should list any major frameworks that you built your project using.
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -126,7 +122,6 @@ This is an example of how to list things you need to use the software and how to
    ```JS
    const API_KEY = 'ENTER YOUR API';
    ```
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -183,17 +178,16 @@ Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://gi
 
 ## Pin Definitions
 
-<img src="images/13-pin-iso-11446.png" alt="13-pin connector">
 
-<li>Pin 1	Left indicator [Blink Venstre]</li>
-<li>Pin 2	Rear fog lamp [Tågelys bag]</li>
-<li>Pin 3	Ground [a]<tab>Stel</li>
-<li>Pin 4	Right indicatorBlink Højre</li>
-<li>Pin 5	Right tail lamp [b]Højre baglys</li>
-<li>Pin 6	Brake lamp<tab>Bremselys</tab></li>
-<li>Pin 7	Left tail lamp[b]</li>
-<li>Pin 8	Reverse lamp</li>
-<li>Pin 9	Permanent power</li>
+<li>Pin 1	 Left indicator [Blink Venstre]</li>
+<li>Pin 2	 Rear fog lamp [Tågelys bag]</li>
+<li>Pin 3	 Ground [a]<tab>Stel</li>
+<li>Pin 4	 Right indicatorBlink Højre</li>
+<li>Pin 5	 Right tail lamp [b]Højre baglys</li>
+<li>Pin 6	 Brake lamp<tab>Bremselys</tab></li>
+<li>Pin 7	 Left tail lamp[b]</li>
+<li>Pin 8	 Reverse lamp</li>
+<li>Pin 9	 Permanent power</li>
 <li>Pin 10	Switched supply (for fridge)</li>
 <li>Pin 11	Ground for pin 10 [a]</li>
 <li>Pin 12	Trailer Presence Detection[c]</li>

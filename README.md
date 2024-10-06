@@ -17,14 +17,11 @@
 
 <!-- PROJECT LOGO -->
 <br />
+
 <!-- GETTING STARTED -->
-### About
 <img src="images/13-pin-iso-11446.png" alt="13-pin connector">
 
-This covers a wireless 13-pin Car Connector Tester 
-You insert a plug in the cars connector and this power a wireless transmitter that you can connect to from you mobile phone
 
-You can then see a status on all the needed pins and see status on your phone without a cable out of the door.
 
 
 
@@ -74,11 +71,15 @@ You can then see a status on all the needed pins and see status on your phone wi
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 [![Wireless Bluetooth Enabled 13 pin Car Socket Tester]](https://github.com/KOCH-Engineering/PinPoint_BLE/blob/master/images/13-pin-iso-11446.png)
+
+This covers a wireless 13-pin Car Connector Tester 
+You insert a plug in the cars connector and this power a wireless transmitter that you can connect to from you mobile phone
+
+You can then see a status on all the needed pins and see status on your phone without a cable out of the door.
 
 
 Link here

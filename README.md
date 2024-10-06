@@ -37,15 +37,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This covers a wireless 13-pin Car Connector Tester 
+This covers a wireless 13-pin Car Connector Tester using BlueTooth Low Energy Link (BLE)
+
 You insert a plug in the cars connector and this power a wireless transmitter that you can connect to from you mobile phone
+The plug powers up the BLE link from the permanent +12V from the plug
 
-You can then see a status on all the needed pins and see status on your phone without a cable out of the door.
+You can then see the status on all pins via the user interface on your phone without a cable out of the door.
 
+The Tester will have different modes:
+* Mode 1: A graphical representation of the Connector where each pin lights up when 12V og GND is connected
+* Mode 2: A Table list structured in groups (ie. Blink Left, Blink Right near to each other
+* Mode 3: A latching mode - So the that has been tested stays on
+* Mode 4: FUTURE: Connection to CAN bus so that the tester and initiate each test by itself
 
 :smile:
-
-
 
 ### Built With
 

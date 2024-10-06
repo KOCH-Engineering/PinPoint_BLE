@@ -19,7 +19,7 @@
 <!-- PROJECT LOGO -->
 <br />
 
-[product-screenshot]: images/images/13-pin-iso-11446.png
+images/images/13-pin-iso-11446.png
 
 <p align="center">
 

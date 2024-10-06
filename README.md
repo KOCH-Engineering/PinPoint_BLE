@@ -88,7 +88,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Henrik Johansen Koch - [@henrikjkoch](https://x.com/henrikjkoch) - henrik@koch-engineering.com
 Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://github.com/henrikkoch/13_pin_socket_tester/)
 
 

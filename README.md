@@ -19,7 +19,9 @@
 <!-- PROJECT LOGO -->
 <br />
 
-images/images/13-pin-iso-11446.png
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+images/13-pin-iso-11446.png
 
 <p align="center">
 

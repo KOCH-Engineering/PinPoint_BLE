@@ -17,7 +17,18 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<!-- GETTING STARTED -->
+## About
 <img src="images/13-pin-iso-11446.png" alt="13-pin connector">
+
+This covers a wireless 13-pin Car Connector Tester 
+You insert a plug in the cars connector and this power a wireless transmitter that you can connect to from you mobile phone
+
+You can then see a status on all the needed pins and see status on your phone without a cable out of the door.
+
+
+
+
 
 <p align="center">
 

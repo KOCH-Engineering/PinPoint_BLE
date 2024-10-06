@@ -91,8 +91,7 @@ Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://gi
 
 ## Pin Definitions
 
-<img src="images/csm_Kontaktbelegung_ISO11446_Front_Stecker_7d4d91d3fa.png" width="25%" height="25%">
-<img src="images/csm_Kontaktbelegung_ISO11446_Front_Stecker_7d4d91d3fa.png" width="25%" height="25%">
+<img src="images/csm_Kontaktbelegung_ISO11446_Front_Stecker_7d4d91d3fa.png" width="25%" height="25%"><img src="images/csm_Kontaktbelegung_ISO11446_Rueckseite_2_156baa0ce3.png.png" width="25%" height="25%">
 
 
 <li>Pin 1	 Left indicator [Blink Venstre]</li>

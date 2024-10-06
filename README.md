@@ -91,7 +91,7 @@ Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://gi
 
 ## Pin Definitions
 
-<img src="images/csm_Kontaktbelegung_ISO11446_Front_Stecker_7d4d91d3fa.png" size="50">
+<img src="images/csm_Kontaktbelegung_ISO11446_Front_Stecker_7d4d91d3fa.png" width="25%" height="25%">
 
 
 

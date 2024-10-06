@@ -18,9 +18,8 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<img src="../images/13-pin-iso-11446.png" alt="13-Pin connector">
 
-../images/13-pin-iso-11446.png
+<img src="../images/13-pin-iso-11446.png" alt="13-Pin connector">
 <p align="center">
 
   <p align="center">

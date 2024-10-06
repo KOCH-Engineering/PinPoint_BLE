@@ -89,6 +89,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Henrik Johansen Koch - [@henrikjkoch](https://x.com/henrikjkoch) - henrik@koch-engineering.com
+
 Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://github.com/henrikkoch/13_pin_socket_tester/)
 
 
@@ -110,7 +111,7 @@ Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://gi
 ## ISO 11446
 * [Link to the ISO 11446 standard](https://en.wikipedia.org/wiki/ISO_11446)
  
- ISO 11446:2004 specifies a 13-pole electrical connector between towing and towed vehicles with 12 volt electrical system. It was developed in 1987 by Erich Jaeger to replace older 7-pin plugs.
+ ISO 11446:2004 specifies a 13-pole electrical connector between towing and towed vehicles with 12 volt electrical system. It was developed in 1987 by [Erich Jaeger](https://www.erich-jaeger.com/en/products/standards/iso-11446/iso-11446-scope-and-application) to replace older 7-pin plugs.
  
 
 ## Pin Definitions

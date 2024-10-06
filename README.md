@@ -18,7 +18,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-[![Product Name Screen Shot][product-screenshot]](https://github.com/KOCH-Engineering/PinPoint_BLE/blob/master/images/13-pin-iso-11446.png)
+https://github.com/KOCH-Engineering/PinPoint_BLE/blob/master/images/13-pin-iso-11446.png
 
 images/13-pin-iso-11446.png
 

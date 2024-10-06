@@ -72,10 +72,8 @@
 
 [![Wireless Bluetooth Enabled 13 pin Car Socket Tester]](https://github.com/KOCH-Engineering/PinPoint_BLE/blob/master/images/13-pin-iso-11446.png)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Link here
-
 [Link to example](https://randomnerdtutorials.com/esp32-web-bluetooth/)
 
 

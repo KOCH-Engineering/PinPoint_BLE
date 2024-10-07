@@ -87,6 +87,7 @@ Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://gi
 * [Arduino](https://www.arduino.cc/)
 * [Link to BLE Code Examples](https://randomnerdtutorials.com/esp32-web-bluetooth/)
 * [Link to how to use iOS](https://github.com/akiofujita/iOS-BLE)
+* [Another article on iOS BLE](https://leonardocavagnis.medium.com/from-arduino-programming-to-ios-app-development-8b5da1783e1e)
 
 
 ## ISO 11446

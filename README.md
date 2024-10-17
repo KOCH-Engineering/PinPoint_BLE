@@ -88,6 +88,8 @@ Henrik Johansen Koch - [@henrikjkoch](https://x.com/henrikjkoch) - henrik@koch-e
 
 Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://github.com/henrikkoch/13_pin_socket_tester/)
 
+* [The index.html file can be tested from here within this Gitbub repository: ](https://koch-engineering.github.io/PinPoint_BLE/)
+
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements

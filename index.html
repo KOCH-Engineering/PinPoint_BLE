@@ -1,7 +1,11 @@
 <!DOCTYPE html>
+<!--
+KOCH Engineerig 2024 - Application to show 13-pin trailer hitch connector  
+-->
+
 <html>
 <head>
-    <title>KOCH - TestPoint</title>
+    <title>KOCH - TestPoint&#169</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.ico">
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -9,9 +13,13 @@
 </head>
 <body>
     <div class="topnav">
-        <h1>KOCH Engineering - Testpoint Web BLE Application</h1>
+		<br>
+		<img src="images/KOCH_Engineering_Logo_3.png" alt="KOCH Engineering">
+	    <h1>TestPoint&#169 BLE Application</h1>
+		<h3>13-pin Bluetooth Car Connector Test Unit</h3> 
     </div>
-    <div class="content">
+    
+	<div class="content">
         <div class="card-grid">
             <div class="card">
                 <p>
@@ -21,6 +29,7 @@
                 <p class="gray-label">BLE state: <strong><span id="bleState" style="color:#d13a30;">Disconnected</span></strong></p>
             </div>
         </div>
+		
         <div class="card-grid">
             <div class="card">
                 <h2>Fetched Value</h2>
@@ -34,9 +43,98 @@
                 <button id="offButton" class="offButton">OFF</button>
                 <p class="gray-label">Last value sent: <span id="valueSent"></span></p>
             </div>
+		</div>
+			
+        <div class="card-grid">
+		
+            <div class="card">
+                <h2>Port Values</h2>
+                <p class="reading"><span id="valuePort1">NaN</span></p>
+                <p class="gray-label">Last Port 1 Reading: <span id="port1_status"></span></p>
+				
+				<p class="reading"><span id="valuePort2">NaN</span></p>
+                <p class="gray-label">Last Port 2 Reading: <span id="port2_status"></span></p>
+            </div>		
+			
+		
+            <div class="card">			
+				<h2>13-Pin Connector</h2>
+				<led id="brake" class="offLed"Brake</led>
+
+
+				<div class="led-box">
+					<div class="led-green"></div>
+					<p>[9] +12V OK</p>
+				</div>
+
+				<div class="led-box">
+					<div class="led-green"></div>
+					<p>[3] GND1 OK</p>
+				</div>
+
+				<div class="led-box">
+					<div class="led-green"></div>
+					<p>[11] GND2 OK</p>
+				</div>
+			
+				<div class="led-box">
+					<div class="led-red-blink"></div>
+					<p>Brakes</p>
+				</div>
+				
+				<div class="led-box">
+					<div class="led-red"></div>
+					<p>Brake</p>
+				</div>	
+
+				<div class="led-box">
+					<div class="led-white"></div>
+					<p>[2] Fog light</p>
+				</div>	
+				
+
+				<div class="led-box">
+					<div class="led-yellow"></div>
+					<p>Right (solid)</p>
+				</div>
+				
+				<div class="led-box">
+					<div class="led-yellow-blink"></div>
+					<p>Left (blink)</p>
+				</div>
+  
+				<div class="led-box">
+					<div class="led-blue"></div>
+					<p>Bluetooth Active</p>
+				</div>
+				
+				<div class="led-box">
+					<div class="led-off"></div>
+					<p>LED off</p>
+				</div>	
+
+				<img src="images/13pin_connector.png" alt="13-pin connector">
+				
+				<h4>Pin 1 Left indicator [Blink Venstre]</h4>
+				<h4>Pin 2 Rear fog lamp [Tågelys bag]</h4>
+				<h4>Pin 3 Ground [a]Stel</h4>
+				<h4>Pin 4 Right indicatorBlink Højre</h4>
+				<h4>Pin 5 Right tail lamp [b]Højre baglys</h4>
+				<h4>Pin 6 Brake lampBremselys</h4>
+				<h4>Pin 7 Left tail lamp[b]</h4>
+				<h4>Pin 8 Reverse lamp</h4>
+				<h4>Pin 9 Permanent power</h4>
+				<h4>Pin 10 Switched supply (for fridge)</h4>
+				<h4>Pin 11 Ground for pin 10 [a]</h4>
+				<h4>Pin 12 Trailer Presence Detection[c]</h4>
+				<h4>Pin 13 Ground for pin 9 [a]</h4>
+						
+			</div>			
         </div>
+		
     </div>
 </body>
+
 <script>
     // DOM Elements
     const connectButton = document.getElementById('connectBleButton');
@@ -44,6 +142,8 @@
     const onButton = document.getElementById('onButton');
     const offButton = document.getElementById('offButton');
     const retrievedValue = document.getElementById('valueContainer');
+	const retrievedPort1Value = document.getElementById('valuePort1');
+	const retrievedPort2Value = document.getElementById('valuePort2');
     const latestValueSent = document.getElementById('valueSent');
     const bleStateContainer = document.getElementById('bleState');
     const timestampContainer = document.getElementById('timestamp');

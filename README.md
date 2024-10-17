@@ -23,6 +23,7 @@
       </ul>
     </li>
     <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#webpage">Web Page</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -70,6 +71,10 @@ I'm using the ESP32 Board called "ESP32-C3-Super-Mini". This board have both Wi-
 * [Link to a Danish Webshop](https://ardustore.dk/produkt/esp32-c3-super-mini-wifi-4mb-ble5-udviklingsboard)
 The ESP32 C3 Super Mini is a low power and small outline of the bigger ESP32-C3 board.
 
+<!-- WEBPAGE -->
+## Webpage
+[The index.html file can be tested from here within this Gitbub repository: ](https://koch-engineering.github.io/PinPoint_BLE/)
+
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -87,8 +92,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Henrik Johansen Koch - [@henrikjkoch](https://x.com/henrikjkoch) - henrik@koch-engineering.com
 
 Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://github.com/henrikkoch/13_pin_socket_tester/)
-
-* [The index.html file can be tested from here within this Gitbub repository: ](https://koch-engineering.github.io/PinPoint_BLE/)
 
 
 <!-- ACKNOWLEDGEMENTS -->

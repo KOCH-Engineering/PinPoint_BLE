@@ -63,6 +63,10 @@ This section list major frameworks that were used to build the project
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+I'm using the ESP32 Board called "ESP32-C3-Super-Mini". This board have both Wi-Fi and Bluetooth 5 
+<img src="images/ESP32-C3-Super-Mini.jpg" alt="ESP32-C3-Super-Mini">
+
+
 <!-- ROADMAP -->
 ## Roadmap
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).

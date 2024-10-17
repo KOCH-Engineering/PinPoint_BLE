@@ -121,6 +121,7 @@ Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://gi
 * [Another article on iOS BLE](https://leonardocavagnis.medium.com/from-arduino-programming-to-ios-app-development-8b5da1783e1e)
 * [Hackaday article about BLE](https://hackaday.com/2018/08/03/beginning-ble-experiments-and-making-everything-better/)
 * [something about ESP32-C3-Mini Expansion board](https://michiel.vanderwulp.be/domotica/Modules/ESP32-C3-SuperMini/)
+* [Serial debug problems - maybe a solution](https://www.esp32.com/viewtopic.php?t=32621)
 
 
 ## ISO 11446

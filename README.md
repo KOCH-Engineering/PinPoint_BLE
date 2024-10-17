@@ -57,6 +57,8 @@ The Tester will have different modes:
 This section list major frameworks that were used to build the project
 * [Arduiono IDE 2.3.3](https://www.arduino.cc/en/software)
 
+* In Arduino IDE development choose: "ESP32C3 Dev Module" as the right module 
+
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -65,6 +67,8 @@ To get a local copy up and running follow these simple example steps.
 
 I'm using the ESP32 Board called "ESP32-C3-Super-Mini". This board have both Wi-Fi and Bluetooth 5 
 <img src="images/ESP32-C3-Super-Mini.jpg" alt="ESP32-C3-Super-Mini">
+* [Link to a Danish Webshop](https://ardustore.dk/produkt/esp32-c3-super-mini-wifi-4mb-ble5-udviklingsboard)
+The ESP32 C3 Super Mini is a low power and small outline of the bigger ESP32-C3 board.
 
 
 <!-- ROADMAP -->

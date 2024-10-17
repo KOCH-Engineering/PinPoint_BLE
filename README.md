@@ -71,10 +71,29 @@ I'm using the ESP32 Board called "ESP32-C3-Super-Mini". This board have both Wi-
 * [Link to a Danish Webshop](https://ardustore.dk/produkt/esp32-c3-super-mini-wifi-4mb-ble5-udviklingsboard)
 The ESP32 C3 Super Mini is a low power and small outline of the bigger ESP32-C3 board.
 
+This is the pin numbers and definitions that can be used with Arduino:
+static const uint8_t TX   = 21;
+static const uint8_t RX   = 20;
+
+static const uint8_t SDA  = 8;
+static const uint8_t SCL  = 9;
+
+static const uint8_t SS   = 7;
+static const uint8_t MOSI = 6;
+static const uint8_t MISO = 5;
+static const uint8_t SCK  = 4;
+
+static const uint8_t A0   = 0;
+static const uint8_t A1   = 1;
+static const uint8_t A2   = 2;
+static const uint8_t A3   = 3;
+static const uint8_t A4   = 4;
+static const uint8_t A5   = 5;
+
+
 <!-- WEBPAGE -->
 ## Webpage
 [The index.html file can be tested from here within this Gitbub repository: ](https://koch-engineering.github.io/PinPoint_BLE/)
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -82,7 +101,6 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <!-- LICENSE -->
 ## License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
 

@@ -90,9 +90,6 @@ This is the pin numbers and definitions that can be used with Arduino:
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 
-## CAN 
-CAN bus-compatible controllers is called TWAI, which stands for Two-Wire Automotive Interface.
-
 <!-- LICENSE -->
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.
@@ -118,17 +115,21 @@ Project Link: [[[https://github.com/KOCH-Engineering/PinPoint_BLE/]](https://git
 * [Serial debug problems - maybe a solution](https://www.esp32.com/viewtopic.php?t=32621)
 
 
+
+#Standards
 ## ISO 11446
 * [Link to the ISO 11446 standard](https://en.wikipedia.org/wiki/ISO_11446)
 ISO 11446:2004 specifies a 13-pole electrical connector between towing and towed vehicles with 12 volt electrical system. It was developed in 1987 by [Erich Jaeger](https://www.erich-jaeger.com/en/products/standards/iso-11446/iso-11446-scope-and-application) to replace older 7-pin plugs.
 
 ## ISO 12098
 
+## CAN 
+CAN bus-compatible controllers is called TWAI, which stands for Two-Wire Automotive Interface.
+
 ## ISO 11898-1 protocol (CAN Specification 2.0)
 TJA1050 High-Speed CAN Transceiver ([datasheet](https://www.nxp.com/docs/en/data-sheet/TJA1050.pdf))
 
 * [TWAI controller](https://lastminuteengineers.com/esp32-can-bus-tutorial/?utm_content=cmp-true)
-
  
 
 ## Pin Definitions

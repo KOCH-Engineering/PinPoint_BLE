@@ -99,7 +99,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Henrik Johansen Koch - [@henrikjkoch](https://x.com/henrikjkoch) - henrik@koch-engineering.com
 
-Project Link: [[https://github.com/henrikkoch/13_pin_socket_tester/]](https://github.com/henrikkoch/13_pin_socket_tester/)
+Project Link: [[[https://github.com/KOCH-Engineering/PinPoint_BLE//]](https://github.com/KOCH-Engineering/PinPoint_BLE/)  This!
 
 
 <!-- ACKNOWLEDGEMENTS -->

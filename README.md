@@ -51,7 +51,7 @@ The Tester will have different modes:
 The code is build with Arduino which supports the ESP32 modules
 * [Arduiono IDE 2.3.3](https://www.arduino.cc/en/software)
 
-* In the Arduino IDE development tool choose the module: "ESP32C3 Dev Module" for the ESP32-C3-Super-Mini module show here on this page
+* Choose the module: "ESP32C3 Dev Module" for the ESP32-C3-Super-Mini module in Arduino IDE 
 
 <!-- GETTING STARTED -->
 ## Getting Started

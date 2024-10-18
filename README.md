@@ -1,4 +1,3 @@
-
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -11,17 +10,11 @@
 <br />
 <img src="images/13-pin-iso-11446.png" alt="13-pin connector">
 
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a><ul><li><a href="#built-with">Built With</a></li></ul></li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#webpage">Web Page</a></li>
     <li><a href="#roadmap">Roadmap</a></li>

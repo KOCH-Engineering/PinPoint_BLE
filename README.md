@@ -118,10 +118,13 @@ Project Link: [[[https://github.com/KOCH-Engineering/PinPoint_BLE/]](https://git
 
 #Standards
 ## ISO 11446
+13 pin Car Connector - 12V
+
 * [Link to the ISO 11446 standard](https://en.wikipedia.org/wiki/ISO_11446)
 ISO 11446:2004 specifies a 13-pole electrical connector between towing and towed vehicles with 12 volt electrical system. It was developed in 1987 by [Erich Jaeger](https://www.erich-jaeger.com/en/products/standards/iso-11446/iso-11446-scope-and-application) to replace older 7-pin plugs.
 
 ## ISO 12098
+15 pin Truck Connector - 24V
 
 ## CAN 
 CAN bus-compatible controllers is called TWAI, which stands for Two-Wire Automotive Interface.

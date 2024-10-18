@@ -48,10 +48,10 @@ The Tester will have different modes:
 
 ### Built With
 
-This section list major frameworks that were used to build the project
+The code is build with Arduino which supports the ESP32 modules
 * [Arduiono IDE 2.3.3](https://www.arduino.cc/en/software)
 
-* In Arduino IDE development choose: "ESP32C3 Dev Module" as the right module 
+* In the Arduino IDE development tool choose the module: "ESP32C3 Dev Module" for the ESP32-C3-Super-Mini module show here on this page
 
 <!-- GETTING STARTED -->
 ## Getting Started

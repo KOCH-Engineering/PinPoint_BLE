@@ -56,9 +56,6 @@ The code is build with Arduino which supports the ESP32 modules
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 I'm using the ESP32 Board called "ESP32-C3-Super-Mini". This board have both Wi-Fi and Bluetooth 5 
 <img src="images/ESP32-C3-Super-Mini.jpg" alt="ESP32-C3-Super-Mini">
 * [Link to a Danish Webshop](https://ardustore.dk/produkt/esp32-c3-super-mini-wifi-4mb-ble5-udviklingsboard)

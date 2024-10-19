@@ -83,7 +83,7 @@ This is the pin numbers and definitions that can be used with Arduino:
 
 <!-- WEBPAGE -->
 ## Webpage
-[The index.html file can be tested from here within this Gitbub repository: ](https://koch-engineering.github.io/PinPoint_BLE/)
+[The web part (index.html+css fille) file can be shown here within this Gitbub repository acting as a webserver: ](https://koch-engineering.github.io/PinPoint_BLE/)
 
 <!-- ROADMAP -->
 ## Roadmap

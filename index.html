@@ -49,9 +49,9 @@ KOCH Engineerig 2024 - Application to show 13-pin trailer hitch connector
 		
             <div class="card">
                 <h2>Port Values</h2>
-                <p class="reading"><span id="valuePort1">NaN</span></p>
-                <p class="gray-label">Last Port 1 Reading: <span id="port1_status"></span></p>
-				
+                <p class="reading"><span id="valueBrake">NaN</span></p>
+                <p class="gray-label">Last Brake Reading: <span id="brakestatus"></span></p>
+			
 				<p class="reading"><span id="valuePort2">NaN</span></p>
                 <p class="gray-label">Last Port 2 Reading: <span id="port2_status"></span></p>
             </div>		
@@ -141,24 +141,41 @@ KOCH Engineerig 2024 - Application to show 13-pin trailer hitch connector
     const disconnectButton = document.getElementById('disconnectBleButton');
     const onButton = document.getElementById('onButton');
     const offButton = document.getElementById('offButton');
+	
     const retrievedValue = document.getElementById('valueContainer');
-	const retrievedPort1Value = document.getElementById('valuePort1');
+	
+	const retrievedBrakeValue = document.getElementById('valuebrakeStatus');
 	const retrievedPort2Value = document.getElementById('valuePort2');
-    const latestValueSent = document.getElementById('valueSent');
+    
+	const latestValueSent = document.getElementById('valueSent');
     const bleStateContainer = document.getElementById('bleState');
     const timestampContainer = document.getElementById('timestamp');
 
     //Define BLE Device Specs
     var deviceName ='TestPoint';
       
-    var bleService = '34103d05-6633-4a0c-bd4a-0b238d203a45';
-    var ledCharacteristic = '19b10002-e8f2-537e-4f6c-d104768a1214';
-    var sensorCharacteristic= '19b10001-e8f2-537e-4f6c-d104768a1214';
+    var bleService = 					'34103d05-6633-4a0c-bd4a-0b238d203a45';
+    var sensorCharacteristic= 			'19b10001-e8f2-537e-4f6c-d104768a1214';
+    var ledCharacteristic = 			'19b10002-e8f2-537e-4f6c-d104768a1214';
+
+	// 13-pin connector
+	var pinStatus =            			'26c90000-9477-4182-80be-f95c67bf7df4';
+	var brakelightCharacteristic =		'26c90001-9477-4182-80be-f95c67bf7df4';
+	var blinkleftCharacteristic =    	'26c90002-9477-4182-80be-f95c67bf7df4';
+	var blinkerightCharacteristic =		'26c90003-9477-4182-80be-f95c67bf7df4';
+	var reverselightCharacteristic =	'26c90004-9477-4182-80be-f95c67bf7df4';
+	var rearfoglightCharacteristic =	'26c90005-9477-4182-80be-f95c67bf7df4';
+	var ignitionCharacteristic =		'26c90006-9477-4182-80be-f95c67bf7df4';
+
 
     //Global Variables to Handle Bluetooth
     var bleServer;
     var bleServiceFound;
     var sensorCharacteristicFound;
+
+	var pinStatusFound;					// PINSTATUS_UUID
+	var brakeCharacteristicFound;		// HJK BrakeSignal
+
 
     // Connect Button (search for BLE Devices only if BLE is available)
     connectButton.addEventListener('click', (event) => {
@@ -190,7 +207,8 @@ KOCH Engineerig 2024 - Application to show 13-pin trailer hitch connector
         console.log('Initializing Bluetooth...');
         navigator.bluetooth.requestDevice({
             filters: [{name: deviceName}],
-            optionalServices: [bleService]
+            optionalServices: [bleService, pinStatus]
+			
         })
         .then(device => {
             console.log('Device Selected:', device.name);
@@ -202,14 +220,24 @@ KOCH Engineerig 2024 - Application to show 13-pin trailer hitch connector
         .then(gattServer =>{
             bleServer = gattServer;
             console.log("Connected to GATT Server");
-            return bleServer.getPrimaryService(bleService);
+            return bleServer.getPrimaryService(bleService, pinStatus);
         })
         .then(service => {
             bleServiceFound = service;
             console.log("Service discovered:", service.uuid);
             return service.getCharacteristic(sensorCharacteristic);
-        })
-        .then(characteristic => {
+        })	
+
+		// HJK Brake signal
+		/*
+		.then(service => {
+            pinStatusFound = service;
+            console.log("PinStatus discovered:", service.uuid);
+            return service.getCharacteristic(brakelightCharacteristic);	
+		})
+		*/		
+			
+		.then(characteristic => {
             console.log("Characteristic discovered:", characteristic.uuid);
             sensorCharacteristicFound = characteristic;
             characteristic.addEventListener('characteristicvaluechanged', handleCharacteristicChange);
@@ -223,6 +251,7 @@ KOCH Engineerig 2024 - Application to show 13-pin trailer hitch connector
             console.log("Decoded value: ", decodedValue);
             retrievedValue.innerHTML = decodedValue;
         })
+		
         .catch(error => {
             console.log('Error: ', error);
         })
@@ -242,6 +271,20 @@ KOCH Engineerig 2024 - Application to show 13-pin trailer hitch connector
         retrievedValue.innerHTML = newValueReceived;
         timestampContainer.innerHTML = getDateTime();
     }
+
+// **************** Brake signal event handler ******************************* 
+
+/*
+	function handleCharacteristicChange(event){
+		const newValueReceived = new TextDecoder().decode(event.target.value);
+		console.log("Characteristic value changed: ", newValueReceived);
+		retrievedBrakeValue.innerHTML = newValueReceived;	
+		//timestampContainer.innerHTML = getDateTime();
+	}
+*/
+
+	
+	
 
     function writeOnCharacteristic(value){
         if (bleServer && bleServer.connected) {
